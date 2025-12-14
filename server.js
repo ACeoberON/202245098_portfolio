@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // 폼 데이터 처리
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '본인비밀번호', // <--- 여기 비밀번호 수정 필수!
+    password: 'rootroot', // <--- 여기 비밀번호 수정 필수!
     database: '202245098_schema'
 });
 
