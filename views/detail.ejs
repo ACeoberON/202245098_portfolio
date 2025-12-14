@@ -7,7 +7,10 @@
 </head>
 <body class="bg-light">
     <div class="container py-5">
-        <a href="/" class="btn btn-outline-secondary mb-3">← 목록으로 돌아가기</a>
+        <div class="d-flex justify-content-between mb-3">
+            <a href="/" class="btn btn-outline-secondary">← 목록으로</a>
+            <a href="/edit/<%= project.id %>" class="btn btn-warning">수정하기 ✏️</a>
+        </div>
         <div class="card shadow">
             <img src="<%= project.image_url %>" class="card-img-top" alt="img" style="max-height: 400px; object-fit: cover;">
             <div class="card-body p-5">
